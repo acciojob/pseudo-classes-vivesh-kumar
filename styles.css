@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+body{
+	background-color:rgb(135, 206, 235);
+}
+.maindiv{
+	text-align:left;
+}
+.first-child{
+	color:white;
+	background-color:black;
+	margin:0px;
+	padding:0px;
+}
+
+.last-child{
+	color:red;
+}
+ul li{
+	width:50%;
+	background-color:white;
+	padding:10px;
+}
+.gray{
+	background-color:gray;
+}
+.font1{
+	font-size:22px;
+}
+.item3{
+	background-color:pink;
+}
