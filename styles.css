@@ -1,31 +1,28 @@
 /*  your css code here. If applicable */
-body{
+:root{
 	background-color:rgb(135, 206, 235);
 }
-.maindiv{
-	text-align:left;
-}
-.first-child{
+article p:first-child{
 	color:white;
 	background-color:black;
-	margin:0px;
-	padding:0px;
 }
-
-.last-child{
+article p:nth-child(2){
+	color:inherit;
+}
+article p:last-child{
 	color:red;
 }
 ul li{
-	width:50%;
-	background-color:white;
-	padding:10px;
-}
-.gray{
 	background-color:gray;
+	padding:10px
+	width:50%;
 }
-.font1{
+ul li:nth-child(odd){
+	background-color:white;
+}
+ul li:first-child,ul li:last-child{
 	font-size:22px;
 }
-.item3{
+ul li:nth-child(3){
 	background-color:pink;
 }
